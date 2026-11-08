@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>考研课程 on 左岚の博客</title>
-        <link>https://zuoliangyu.github.io/categories/%E8%80%83%E7%A0%94%E8%AF%BE%E7%A8%8B/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/categories/%E8%80%83%E7%A0%94%E8%AF%BE%E7%A8%8B/</link>
         <description>Recent content in 考研课程 on 左岚の博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zuoliangyu.github.io/categories/%E8%80%83%E7%A0%94%E8%AF%BE%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zuoliangyu.github.io/hugo_blog/categories/%E8%80%83%E7%A0%94%E8%AF%BE%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>性质的判断</title>
-        <link>https://zuoliangyu.github.io/p/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/p/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/</link>
         <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://zuoliangyu.github.io/p/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/</guid>
+        <guid>https://zuoliangyu.github.io/hugo_blog/p/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/</guid>
         <description>&lt;p&gt;在系统理论中，判断一个系统是否具备线性、时不变性、因果性、稳定性和记忆性等性质是分析和设计系统的基础。下面将详细说明每种性质的定义以及相应的判断方法。&lt;/p&gt;
 &lt;h2 id=&#34;1-线性linearity&#34;&gt;1. 线性（Linearity）
 &lt;/h2&gt;&lt;h3 id=&#34;定义&#34;&gt;定义

@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zuoliangyu.github.io/en/categories/</loc>
+    <loc>https://zuoliangyu.github.io/hugo_blog/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://zuoliangyu.github.io/categories/"
+                href="https://zuoliangyu.github.io/hugo_blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://zuoliangyu.github.io/en/categories/"
+                href="https://zuoliangyu.github.io/hugo_blog/en/categories/"
                 />
   </url><url>
-    <loc>https://zuoliangyu.github.io/en/tags/</loc>
+    <loc>https://zuoliangyu.github.io/hugo_blog/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://zuoliangyu.github.io/tags/"
+                href="https://zuoliangyu.github.io/hugo_blog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://zuoliangyu.github.io/en/tags/"
+                href="https://zuoliangyu.github.io/hugo_blog/en/tags/"
                 />
   </url><url>
-    <loc>https://zuoliangyu.github.io/en/</loc>
+    <loc>https://zuoliangyu.github.io/hugo_blog/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://zuoliangyu.github.io/"
+                href="https://zuoliangyu.github.io/hugo_blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://zuoliangyu.github.io/en/"
+                href="https://zuoliangyu.github.io/hugo_blog/en/"
                 />
   </url>
 </urlset>

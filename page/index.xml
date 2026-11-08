@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on 左岚の博客</title>
-        <link>https://zuoliangyu.github.io/page/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/page/</link>
         <description>Recent content in Pages on 左岚の博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zuoliangyu.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://zuoliangyu.github.io/hugo_blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Archives</title>
-        <link>https://zuoliangyu.github.io/archives/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://zuoliangyu.github.io/archives/</guid>
+        <guid>https://zuoliangyu.github.io/hugo_blog/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://zuoliangyu.github.io/links/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zuoliangyu.github.io/links/</guid>
+        <guid>https://zuoliangyu.github.io/hugo_blog/links/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://zuoliangyu.github.io/search/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zuoliangyu.github.io/search/</guid>
+        <guid>https://zuoliangyu.github.io/hugo_blog/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://zuoliangyu.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://zuoliangyu.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://zuoliangyu.github.io/hugo_blog/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>

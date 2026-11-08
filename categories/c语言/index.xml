@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>C语言 on 左岚の博客</title>
-        <link>https://zuoliangyu.github.io/categories/c%E8%AF%AD%E8%A8%80/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/categories/c%E8%AF%AD%E8%A8%80/</link>
         <description>Recent content in C语言 on 左岚の博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zuoliangyu.github.io/categories/c%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://zuoliangyu.github.io/hugo_blog/categories/c%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>C语言入门基础</title>
-        <link>https://zuoliangyu.github.io/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</link>
+        <link>https://zuoliangyu.github.io/hugo_blog/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</link>
         <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://zuoliangyu.github.io/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</guid>
+        <guid>https://zuoliangyu.github.io/hugo_blog/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</guid>
         <description>&lt;h1 id=&#34;第一部分c语言基础概念详解&#34;&gt;&lt;strong&gt;第一部分：C语言基础概念详解&lt;/strong&gt;
 &lt;/h1&gt;&lt;h2 id=&#34;1-c语言的起源与特点&#34;&gt;1. &lt;strong&gt;C语言的起源与特点&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;C语言诞生于20世纪70年代初，最初用于开发UNIX操作系统。它的设计目标是使得代码更高效且能够直接操作硬件，因此C语言也被称为“低级语言的高级化”。以下是C语言的几个主要特点：&lt;/p&gt;
@@ -1061,35 +1061,35 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;4-结构体与联合体的比较&#34;&gt;4. &lt;strong&gt;结构体与联合体的比较&lt;/strong&gt;
 &lt;/h2&gt;&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;特性&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;结构体&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;联合体&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;内存分配&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;每个成员都有独立的内存空间&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;所有成员共享同一块内存&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;使用场景&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;需要同时存储多个不同类型的数据&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;需要节省内存且一次只使用一个成员&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;成员访问&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;可以同时访问多个成员&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;只能访问最后一次赋值的成员&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;大小&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;总大小等于所有成员的大小之和&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;大小等于最大成员的大小&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;特性&lt;/th&gt;
+&lt;th&gt;结构体&lt;/th&gt;
+&lt;th&gt;联合体&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;内存分配&lt;/td&gt;
+&lt;td&gt;每个成员都有独立的内存空间&lt;/td&gt;
+&lt;td&gt;所有成员共享同一块内存&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;使用场景&lt;/td&gt;
+&lt;td&gt;需要同时存储多个不同类型的数据&lt;/td&gt;
+&lt;td&gt;需要节省内存且一次只使用一个成员&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;成员访问&lt;/td&gt;
+&lt;td&gt;可以同时访问多个成员&lt;/td&gt;
+&lt;td&gt;只能访问最后一次赋值的成员&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大小&lt;/td&gt;
+&lt;td&gt;总大小等于所有成员的大小之和&lt;/td&gt;
+&lt;td&gt;大小等于最大成员的大小&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;5-嵌套结构体&#34;&gt;5. &lt;strong&gt;嵌套结构体&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;在C语言中，结构体可以嵌套，即一个结构体的成员可以是另一个结构体。例如：&lt;/p&gt;

@@ -4,16 +4,19 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="C语言是一种高效的编程语言，广泛用于系统开发。其核心内容包括： 1. 基础语法：变量、控制结构和输入输出。 2. 数组与字符串：存储相同类型的数据和文本。 3. 指针：存储变量地址，常用于数组和函数操作。 4. 文件操作：读写外部文件。 5. 预处理器指令：控制编译行为。 ">
 <title>C语言入门基础</title>
 
-<link rel='canonical' href='https://zuoliangyu.github.io/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/'>
+<link rel='canonical' href='https://zuoliangyu.github.io/hugo_blog/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/'>
 
-<link rel="stylesheet" href="/scss/style.min.cf9c1578b5baaf725b9e6494f8e2bc31e8165ff98e384370980da68d90f12b0b.css"><meta property='og:title' content="C语言入门基础">
+<link rel="stylesheet" href="/hugo_blog/scss/style.min.e29358472f443a5b1be991bceb50d129fa10aff1d20496f11bf7dbf913b9ee1e.css"><meta property='og:title' content="C语言入门基础">
 <meta property='og:description' content="C语言是一种高效的编程语言，广泛用于系统开发。其核心内容包括： 1. 基础语法：变量、控制结构和输入输出。 2. 数组与字符串：存储相同类型的数据和文本。 3. 指针：存储变量地址，常用于数组和函数操作。 4. 文件操作：读写外部文件。 5. 预处理器指令：控制编译行为。 ">
-<meta property='og:url' content='https://zuoliangyu.github.io/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/'>
+<meta property='og:url' content='https://zuoliangyu.github.io/hugo_blog/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/'>
 <meta property='og:site_name' content='左岚の博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-12T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="C语言入门基础">
 <meta name="twitter:description" content="C语言是一种高效的编程语言，广泛用于系统开发。其核心内容包括： 1. 基础语法：变量、控制结构和输入输出。 2. 数组与字符串：存储相同类型的数据和文本。 3. 指针：存储变量地址，常用于数组和函数操作。 4. 文件操作：读写外部文件。 5. 预处理器指令：控制编译行为。 ">
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/hugo_blog/favicon.ico" />
+
+  
+
 
     </head>
     <body class="
@@ -24,7 +27,7 @@
 
 
         <div id="article-toolbar" style="position: sticky;top: 5px;z-index: 1000;">
-            <a href="/" class="back-home">
+            <a href="/hugo_blog" class="back-home">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <polyline points="15 6 9 12 15 18" />
@@ -196,11 +199,11 @@
     
     <header class="article-category">
         
-            <a href="/categories/c%E8%AF%AD%E8%A8%80/" >
+            <a href="/hugo_blog/categories/c%E8%AF%AD%E8%A8%80/" >
                 C语言
             </a>
         
-            <a href="/categories/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/" >
+            <a href="/hugo_blog/categories/%E5%A4%A7%E5%AD%A6%E5%AD%A6%E4%B9%A0/" >
                 大学学习
             </a>
         
@@ -209,7 +212,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/">C语言入门基础</a>
+            <a href="/hugo_blog/p/c%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/">C语言入门基础</a>
         </h2>
     
         
@@ -1319,35 +1322,35 @@
 </div>
 </div><h2 id="4-结构体与联合体的比较">4. <strong>结构体与联合体的比较</strong>
 </h2><div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th style="text-align: left">特性</th>
-          <th style="text-align: left">结构体</th>
-          <th style="text-align: left">联合体</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">内存分配</td>
-          <td style="text-align: left">每个成员都有独立的内存空间</td>
-          <td style="text-align: left">所有成员共享同一块内存</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">使用场景</td>
-          <td style="text-align: left">需要同时存储多个不同类型的数据</td>
-          <td style="text-align: left">需要节省内存且一次只使用一个成员</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">成员访问</td>
-          <td style="text-align: left">可以同时访问多个成员</td>
-          <td style="text-align: left">只能访问最后一次赋值的成员</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">大小</td>
-          <td style="text-align: left">总大小等于所有成员的大小之和</td>
-          <td style="text-align: left">大小等于最大成员的大小</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>特性</th>
+<th>结构体</th>
+<th>联合体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内存分配</td>
+<td>每个成员都有独立的内存空间</td>
+<td>所有成员共享同一块内存</td>
+</tr>
+<tr>
+<td>使用场景</td>
+<td>需要同时存储多个不同类型的数据</td>
+<td>需要节省内存且一次只使用一个成员</td>
+</tr>
+<tr>
+<td>成员访问</td>
+<td>可以同时访问多个成员</td>
+<td>只能访问最后一次赋值的成员</td>
+</tr>
+<tr>
+<td>大小</td>
+<td>总大小等于所有成员的大小之和</td>
+<td>大小等于最大成员的大小</td>
+</tr>
+</tbody>
 </table></div>
 <h2 id="5-嵌套结构体">5. <strong>嵌套结构体</strong>
 </h2><p>在C语言中，结构体可以嵌套，即一个结构体的成员可以是另一个结构体。例如：</p>
@@ -1840,7 +1843,7 @@
         
             2020 - 
         
-        2024 Example Person
+        2026 Example Person
     </section>
     
     <section class="powerby">
@@ -1934,7 +1937,7 @@
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+            </script><script type="text/javascript" src="/hugo_blog/ts/main.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
